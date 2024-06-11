@@ -1,0 +1,48 @@
+canvas{
+    outline: 1px solid black;
+}
+
+.game-page{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.modal-background{
+    position: fixed;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, .5);
+
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.modal-background .modal-component{
+    width: 50%;
+}
+
+.gameover-modal .modal-body{
+    gap: 2rem;
+}
+
+.button-like.save-game-button{
+    background-color: #9b2626;
+}
+
+.button-like.save-game-button:hover{
+    color: #9b2626;
+    background-color: #9b262630;
+    border-color: #9b2626;
+}
+
+.button-like.home-button{
+    background-color: #b2a808;
+}
+
+.button-like.home-button:hover{
+    color: #b2a808;
+    border-color: #b2a808;
+    background-color: #b2a80830;
+}

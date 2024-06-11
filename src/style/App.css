@@ -1,0 +1,87 @@
+*{
+    /*global resets*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*font family used*/
+@font-face {
+    font-family: "MightySoul";
+    src: url("../assets/font/MightySoul.ttf");
+}
+
+@font-face {
+    font-family: "TechnoRace";
+    src: url("../assets/font/TechnoRace.otf");
+}
+
+:root{
+    /*colors*/
+    --button-green: #0A6847;
+    --button-dark-blue: #141E46;
+    --body-bg: #D9EDBF;
+    --lightgreen: #D9EDBF;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--body-bg);
+
+    font-family: 'TechnoRace','MightySoul', 'Calibri', 'Arial', 'Times New Roman', -apple-system, sans-serif;
+    letter-spacing: 2px;
+}
+
+::selection{
+    color: #f3f3f3;
+    background-color: #0A6847;
+}
+
+.app-component{
+    /*fallback*/
+    min-height: 100vh;
+    min-height: 100svh;
+
+    display: grid;
+    place-items: center;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+/*style for buttons and links*/
+.button-like{
+    color: #fff;
+    background-color: var(--button-green);
+    border: 1px solid transparent;
+    width: 100%;
+    padding: .25rem .5rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+
+.button-like:hover{
+    background-color: var(--lightgreen);
+    border-color: var(--button-green);
+    color: var(--button-green);
+}
+
+.go-home-button{
+    position: fixed;
+    top: .5rem;
+    left: .5rem;
+
+    font-size: 2rem;
+}
+
+.go-home-button:hover{
+    color: #9b2626;
+}
