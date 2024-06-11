@@ -8,7 +8,7 @@
 **Point is gained by eating the food, the game is over if one of the snakes collides with itself or with the other**\
 **Colours can be customised to better suit user experience**\
 
-**The game can be accessed here: https://react-snake-multiplayer.onrender.com/**\
+**The game can be accessed here:** https://react-snake-multiplayer.onrender.com/ \
 
 **Made with: React + TypeScript**
 
