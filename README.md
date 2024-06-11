@@ -1,6 +1,6 @@
 # React Snake Multiplayer
 ## Local multiplayer snake game for two players
-##Desktop mode only (not mobile supported yet)
+## Desktop mode only (not mobile supported yet)
 ---
 **Part of the preparation for the WorldSkills 2024 Lyon competition.**\
 **This is a classic snake game - but with two players.**\
